@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.container h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -60px;
+  margin-bottom: 50px;
+}
+
+.container span{
+  color: #d45b1a; 
+}
+
+textarea{
+  width: 50%;
+  height: 200px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.row{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+button{
+  background: #d45b1a;
+  color: white;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+button .bi{
+  background-color: #d45b1a;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+select{
+  flex: 1;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
+
+.copyright{
+  color: white;
+  margin-top: -30px;
+}
+
+.copyright h4{
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .container h1{
+    font-size: 25px;
+  }
+  
+  textarea{
+    width: 100%;
+    height: 200px;
+  }
+
+  .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  button{
+    background: #d45b1a;
+    color: white;
+    padding: 10px 14px;
+  }
+  
+  button .bi{
+    background-color: #d45b1a;
+    font-size: 15px;
+  }
+
+  select{
+    width: 10%;
+    height: 40px;
+  }
+}
+
+
+
